@@ -1,0 +1,36 @@
+.nav {
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #8f8f8f;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #000;
+    }
+  }
+  &__contactUsLink {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: white;
+    transition: color 0.2s;
+    border: 1px solid #238ae9;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #238ae9, #36b1f7);
+    padding: 6px;
+
+    &:hover {
+      color: black;
+    }
+  }
+}

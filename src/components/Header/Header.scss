@@ -1,0 +1,13 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(171, 192, 216, 0.5);
+  padding: 1rem 2rem;
+  z-index: 10;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+  }
+}

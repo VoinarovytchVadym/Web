@@ -1,0 +1,16 @@
+/* Оновлений стиль для футера */
+footer {
+  background-color: #414141; /* сірий фон */
+  color: #8f8f8f;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  position: relative; /* Задаємо футеру позицію */
+  bottom: 0; /* Це дозволяє футеру бути внизу */
+  margin-top: auto; /* Це допомагає, щоб футер завжди залишався внизу */
+}
+
+.footer__copyright {
+  margin: 0;
+  font-size: 0.875rem; /* маленький шрифт */
+}

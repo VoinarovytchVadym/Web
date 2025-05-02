@@ -1,0 +1,52 @@
+.hero {
+  background: url("../../assets/images/Background.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; /* додає ефект фіксованого фону при прокручуванні */
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem; /* Відступи з усіх боків */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  min-height: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero__content {
+  max-width: 1200px; /* Максимальна ширина для тексту */
+  padding: 0 100px;
+}
+
+.hero__title {
+  font-size: 3rem; /* Великий заголовок */
+  margin: 0px;
+}
+.hero__title_second {
+  font-size: 3rem; /* Великий заголовок */
+  font-weight: 100;
+  margin: 0 0 1rem 0;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.hero__button {
+  background-image: linear-gradient(to top, #36af24, #6dd157);
+  color: white;
+  padding: 0.6rem 2.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 2px 5px rgba($color: #000000, $alpha: 0.1);
+
+  &:hover {
+    color: black;
+  }
+}

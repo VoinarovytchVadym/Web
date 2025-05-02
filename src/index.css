@@ -1,0 +1,20 @@
+/* Основні стилі для контейнера */
+html,
+body {
+  height: 100%; /* Висота 100% для html та body */
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+  height: 100%; /* Займає всю висоту */
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Гарантуємо, що основний контент займає весь доступний простір */
+}

@@ -1,0 +1,59 @@
+/* Встановлюємо висоту 100% для всіх елементів */
+html,
+body {
+  height: 100%; /* Забезпечуємо, щоб елементи займали всю висоту */
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ececec; /* Світло-сірий фон для сторінки */
+  font-family: "Segoe WP Light", "Segoe UI", sans-serif;
+  color: #8f8f8f; /* Текст темно-сірий */
+}
+
+/* Основний контейнер, який містить всю сторінку */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Висота 100% вікна для коректного розміщення футера */
+}
+
+/* Стилі для хедера */
+header {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для основного контенту */
+.main-content {
+  flex: 1; /* Залишає місце для футера */
+  padding: 2rem;
+}
+
+/* Стійки для футера */
+footer {
+  background-color: #333; /* сірий фон */
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Окремі стилі для футера */
+footer p {
+  font-size: 0.875rem; /* менший шрифт для авторських прав */
+  margin: 0;
+}
+
+/* Вирівнювання елементів в центрі */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
