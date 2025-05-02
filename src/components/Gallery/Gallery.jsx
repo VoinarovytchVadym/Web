@@ -1,15 +1,15 @@
 import React from "react";
 import "./Gallery.scss";
 import azheekal from "../../assets/images/azheekal.jpg";
-import ooty from "../../assets/images/azheekal.jpg";
-import munnar from "../../assets/images/azheekal.jpg";
-import hampi from "../../assets/images/azheekal.jpg";
-import kovalam from "../../assets/images/azheekal.jpg";
-import kuttand from "../../assets/images/azheekal.jpg";
-import thenmala from "../../assets/images/azheekal.jpg";
-import beach from "../../assets/images/azheekal.jpg";
-import munnar2 from "../../assets/images/azheekal.jpg";
-import punaloor from "../../assets/images/azheekal.jpg";
+import ooty from "../../assets/images/Ooty.jpg";
+import munnar from "../../assets/images/Munnar.jpg";
+import hampi from "../../assets/images/Hampi.jpg";
+import kovalam from "../../assets/images/Kovalam.jpg";
+import kuttand from "../../assets/images/Kuttand.jpg";
+import thenmala from "../../assets/images/Thennala.jpg";
+import beach from "../../assets/images/Beach.jpg";
+import munnar2 from "../../assets/images/Munnar2.jpg";
+import punaloor from "../../assets/images/Punaloor.jpg";
 
 export function Gallery() {
   const places = [
